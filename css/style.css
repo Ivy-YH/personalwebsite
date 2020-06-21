@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(211,238,221);
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Comic sans MS', Helvetica, Arial, sans-serif,'SimSum';
+    color: rgb(140, 218, 192);
+   
+}
+.inner{
+    margin: 10px auto 10px auto;
+    width: 75%;
+    vertical-align: middle;
+}
+header ul{
+	display: block;
+  margin:  0 auto;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+header ul li{
+	list-style: none;
+  display: inline-block;
+  padding: 0px 150px;
+  
+}
+header ul li a{
+    border-bottom: 1px solid;
+}
+a:hover{
+    color: rosybrown;
+}
+
+/* 主页部分的css样式 */
+#maincont{
+    font-size: 60px;
+    line-height: 1.5em;
+}
+
+div#icolink{
+    display: inline-block;
+    margin: auto;
+}
+div.ico{
+    display: block;
+   padding: 20px;
+   float:left;
+   margin: auto;
+}
+
+div.linkcont{
+    display: block;
+    width: 45%;
+    text-align: center;
+    margin: 0  auto;
+    
+      
+}
+.linkcont ul li {
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+a{
+    text-decoration: none;
+  color: rgb(140, 218, 192);
+}
+
+footer{
+    padding: 50px;
+    display: inline-block;
+}
+
+
+
+/* contact me  */
+
+/* form表单样式 */
+form {
+    margin-top: 30px;
+    display: inline-table;
+    vertical-align: middle;
+	padding: 20px;
+	border: thin dotted rgb(211,238,221);
+	background-color:#fff;
+    
+}
+fieldset{
+    border: rgb(211,238,221) solid;
+}
+input#submit{
+    background-color: rgb(211,238,221);
+    border: rgb(211,238,221);
+    color: rgb(140, 218, 192);
+    border-radius: 5px;
+    font-size: 18px;
+    height:  1.5em;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+ div.tableRow > label, div.tableRow > input {
+	display: table-cell;
+    vertical-align: top;
+    text-align: left;
+	padding: 3px;
+}
+div.tableRow label{
+    text-align: left;
+}
+div.tableRow label:first-child {
+	text-align: right;
+}
+form textarea {
+	display: table-cell;
+	width: 300px;
+	height: 200px;
+}
+legend {
+	font-weight: bold;
+}
+
+/* 我的联系方式 */
+div.mmes{
+    display: inline-block;
+ 
+    font-size: 20px;
+    padding: 30px;
+}
+
+/* 自我介绍的表格 */
+.ttitle{
+    font-size: 1.5em;
+    padding: 10px;
+}
+table {
+    margin-top: 20px;
+    border: solid;
+    border-spacing:0px;
+    width: 75%;
+    vertical-align: middle;
+    display: inline-block;
+}
+table .t-bt{
+    text-align: center;
+}
+td{
+   border: 1px solid;
+    height: 35px;
+    width: 8%;
+}
+.tcont{
+    font: 20px solid;
+    height: 25px;
+    padding: auto 5px;
+}
